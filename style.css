@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding-top: 0px;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position:fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9b615d; 
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    width:100%;
+}
+
+.logo a{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
+    margin-left: 20px;
+    display: block;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 5px;    
+  }
+   
+  nav li {
+    margin: 0;
+  }
+  
+  nav a {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    background-color: #26316e
+  }
+
+  .home-section {
+    height: 100vh;
+    justify-content: center;
+    padding: 20px;
+    padding-top:100px;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    background-color: #e7e5dd;
+  }
+
+  .home-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #26316e;
+  }
+
+  .home-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #555;
+  }
+  
+.home-content .btn {
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 18px;
+    color: white;
+    background-color: #26316e;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.home-content .btn:hover {
+    background-color: #af7972;
+}
